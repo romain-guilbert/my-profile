@@ -1,0 +1,166 @@
+
+h1
+{
+	color: #001945;
+	font-weight: lighter;
+	font-family: fantasy;
+}
+body
+{
+	
+	background:#9fb3bd; 
+}
+h2
+{
+	font-family: fantasy;
+	font-variant: small-caps;
+	text-align: center;
+	color: #001945;
+
+}
+h3
+{
+	color: #001945;
+	font-family: fantasy;
+	font-variant: small-caps;
+	padding-top: 10px;
+}
+p
+{
+	color: #041c47;
+	padding: 10px;
+}
+
+a
+{
+	color: #ffc10726;
+	text-decoration: none;
+}
+
+a:hover
+{
+color: #2196f3;
+}
+.container 
+{
+	width: 800px;
+	font-family: arial, serif;
+	align-content: center;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.6;
+	letter-spacing: 1px;
+	color: white;
+	padding: 50px;
+
+
+
+}
+.white-card
+{
+	
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 1px rgba(195, 218, 223, 0.37);
+	padding: 0px;
+
+}
+.white-card1
+{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 10px 10px 1px rgba(195, 218, 223, 0.37);
+	padding: 0px;
+	text-align: center;
+
+}
+@media (max-width: 500px) {
+	
+	.container{
+		width:400px;
+	}
+	
+}
+@media (max-width: 760px) {
+	
+	.container{
+		width:600px;
+	}
+	
+}
+.img-circle 
+{
+	border-radius: 50%;
+	width: 200px;
+}
+
+.list-inline
+{
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 15px;
+
+    
+  }
+
+.list-inline li {
+	display: inline;
+	padding: 50px;
+	list-style: none;
+	
+	
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #215481;
+	padding-bottom: 20px;
+}
+
+.list-inline i:hover {
+	color: #4caf50;
+}
+
+
+.logo
+{
+	padding:20px;
+}
+.titre1
+{
+	background-color: white;
+	border-radius: 10px;
+	width: 700px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 1px rgba(195, 218, 223, 0.37);
+	text-align: center;
+	align-content: center;
+	margin: 0 auto;
+	padding:10px;
+
+}
+.titre
+{
+	background-color: white; 
+	border-radius: 10px;
+	width: 400px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 1px rgba(195, 218, 223, 0.37);
+	text-align: center;
+	align-content: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.subscribe 
+{
+	background-color: #001945;
+	padding:15px;
+	border-radius: 10px;
+	color: white;
+	
+
+}
+.subscribe:hover {
+	background-color: #8bc34a;
+}
